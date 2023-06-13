@@ -1,0 +1,12 @@
+<ejs-stockchart title="AAPL Stock Price"
+  [crosshair]="crosshairSettings"
+  [primaryXAxis]="xAxis"
+  [tooltip]="tooltipOptions"
+  [enableSelector]="false">
+  <e-stockchart-series-collection>
+    <e-stockchart-series [dataSource]="data" 
+      xName="x"
+      type="Candle" 
+      name="Apple Inc."></e-stockchart-series>
+  </e-stockchart-series-collection>
+</ejs-stockchart>
