@@ -13,13 +13,13 @@ To run this application, you need to clone the `getting-started-with-the-angular
 ## Features and Benefits
 
 ### Interactive Chart
-The end-user experience is greatly enhanced by including a set of interactive features such as zooming, and panning, crosshair, trackball, events, and selection.
+The end-user experience is greatly enhanced by including a set of interactive features such as zooming, and panning, [crosshair](https://ej2.syncfusion.com/angular/documentation/stock-chart/cross-hair?utm_source=github&utm_medium=listing&utm_campaign=angular-stock-chart-github-samples), trackball, events, and selection.
 
 ### Candlestick with volume
 Angular Candlestick Chart allows analyzing both price action and volume at a glance.
 
 ### Multiple series
-Plot multiple series in a single chart to compare different stock values. Enabling a legend and a tooltip gives more information about an individual series.
+Plot multiple series in a single chart to compare different stock values. Enabling a legend and a [tooltip](https://ej2.syncfusion.com/angular/documentation/stock-chart/tool-tip?utm_source=github&utm_medium=listing&utm_campaign=angular-stock-chart-github-samples) gives more information about an individual series.
 
 ### Plot band
 Draw special attention to any region of the chart or graph with the help of strip lines.
