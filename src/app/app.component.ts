@@ -1,7 +1,12 @@
 import { Component } from '@angular/core';
 import {chartData} from './data'
+import { StockChartModule, CandleSeriesService, DateTimeService, CrosshairService, TooltipService, RangeTooltipService} from '@syncfusion/ej2-angular-charts';
+
+
 @Component({
   selector: 'app-root',
+  imports: [StockChartModule],
+  providers: [CandleSeriesService, DateTimeService, CrosshairService, TooltipService, RangeTooltipService],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
